@@ -175,7 +175,8 @@ window.onload=function(){
 	
 	
 	var div=document.getElementById("snake"),
-		map=new Map(div,50,50);
+	    map=new Map(div,50,50);
+            //why dont you change!
 	
 
 	window.onkeydown=function(event){
@@ -196,5 +197,4 @@ window.onload=function(){
 				break;
 		}
 	}
-	
 }
