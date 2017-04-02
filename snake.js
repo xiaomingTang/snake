@@ -175,7 +175,7 @@ window.onload=function(){
 	
 	
 	var div=document.getElementById("snake"),
-		map=new Map(div,10,5);
+		map=new Map(div,50,50);
 	
 
 	window.onkeydown=function(event){
